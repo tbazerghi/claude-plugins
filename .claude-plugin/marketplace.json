@@ -1,0 +1,25 @@
+{
+  "name": "mystuff-marketplace",
+  "owner": {
+    "name": "Thomas Bazerghi",
+    "email": "tbazerghi@gmail.com"
+  },
+  "metadata": {
+    "description": "Personal marketplace of general-purpose skills and agents for Cowork and Claude Code.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "mystuff",
+      "source": "./mystuff",
+      "description": "A personal toolkit of general-purpose skills and agents: summarize, draft-message, action-items, plus researcher and reviewer agents.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Thomas Bazerghi",
+        "email": "tbazerghi@gmail.com"
+      },
+      "keywords": ["productivity", "summarize", "drafting", "research", "review", "general-purpose"],
+      "category": "productivity"
+    }
+  ]
+}
