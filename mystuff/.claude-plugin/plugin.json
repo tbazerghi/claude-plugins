@@ -1,10 +1,10 @@
 {
   "name": "mystuff",
   "version": "0.1.0",
-  "description": "A personal toolkit of general-purpose skills and agents for Cowork and Claude Code: summarizing, drafting messages, extracting action items, research, and review.",
+  "description": "A personal toolkit of general-purpose skills and agents for Cowork and Claude Code: summarizing, drafting messages, extracting action items, drafting LinkedIn posts, extracting article insights, morning triage, tool/vendor evaluation, creating skills, plus research and review agents.",
   "author": {
     "name": "Thomas Bazerghi",
     "email": "tbazerghi@gmail.com"
   },
-  "keywords": ["productivity", "summarize", "drafting", "research", "review", "general-purpose"]
+  "keywords": ["productivity", "summarize", "drafting", "linkedin", "insights", "triage", "vendor-eval", "skill-creator", "research", "review", "general-purpose"]
 }
