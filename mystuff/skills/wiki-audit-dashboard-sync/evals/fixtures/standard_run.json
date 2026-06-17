@@ -1,0 +1,29 @@
+{
+  "as_of": "2026-06-03T12:00:00Z",
+  "note": "Simulated Notion export. Treat this file as the source of truth in place of the live Notion API. Each dashboard row references a wiki by key; wiki page lists carry each page's verification property ('verified_until'). Audit per the skill and write the new counts into 'dashboard_after' in your output.",
+  "dashboard": [
+    {"row": "Company",   "wiki_key": "company",   "team_lead": "Dana",  "total_pages": 40, "verified_pages": 38, "percent_verified": 95},
+    {"row": "Marketing", "wiki_key": "marketing", "team_lead": "Priya", "total_pages": 30, "verified_pages": 12, "percent_verified": 40},
+    {"row": "Sales",     "wiki_key": "sales",     "team_lead": "Marco", "total_pages": 18, "verified_pages": 16, "percent_verified": 88}
+  ],
+  "wikis": {
+    "company": [
+      {"id": "c1", "title": "Mission",      "verified_until": "2026-12-01T00:00:00Z"},
+      {"id": "c2", "title": "Org chart",    "verified_until": "2026-12-01T00:00:00Z"},
+      {"id": "c3", "title": "Benefits",     "verified_until": "2026-12-01T00:00:00Z"},
+      {"id": "c4", "title": "Travel policy","verified_until": "2026-12-01T00:00:00Z"}
+    ],
+    "marketing": [
+      {"id": "m1", "title": "Brand guide",  "verified_until": "2026-12-01T00:00:00Z"},
+      {"id": "m2", "title": "Campaign plan", "verified_until": "2026-01-01T00:00:00Z"},
+      {"id": "m3", "title": "Press kit",    "verified_until": null},
+      {"id": "m4", "title": "SEO playbook", "verified_until": "2025-12-01T00:00:00Z"},
+      {"id": "m5", "title": "Event calendar","verified_until": "2026-12-01T00:00:00Z"}
+    ],
+    "sales": [
+      {"id": "s1", "title": "Pricing",      "verified_until": "2026-10-01T00:00:00Z"},
+      {"id": "s2", "title": "Discount rules","verified_until": "2026-10-01T00:00:00Z"},
+      {"id": "s3", "title": "CRM guide",    "verified_until": "2026-10-01T00:00:00Z"}
+    ]
+  }
+}

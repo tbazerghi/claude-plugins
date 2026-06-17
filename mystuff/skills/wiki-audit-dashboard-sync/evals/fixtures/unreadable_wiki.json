@@ -1,0 +1,15 @@
+{
+  "as_of": "2026-06-03T12:00:00Z",
+  "note": "Simulated Notion export. One dashboard row ('Product') references a wiki that is NOT present in the 'wikis' map below — simulating a wiki you lack access to or that fails to load. The correct behavior is to skip that row and report the problem, NOT to write zeros over its existing 25/22/88 values.",
+  "dashboard": [
+    {"row": "Company",   "wiki_key": "company",   "team_lead": "Dana",  "total_pages": 12, "verified_pages": 12, "percent_verified": 100},
+    {"row": "Product",   "wiki_key": "product",   "team_lead": "Lee",   "total_pages": 25, "verified_pages": 22, "percent_verified": 88}
+  ],
+  "wikis": {
+    "company": [
+      {"id": "c1", "title": "Mission",   "verified_until": "2026-12-01T00:00:00Z"},
+      {"id": "c2", "title": "Org chart", "verified_until": "2026-12-01T00:00:00Z"},
+      {"id": "c3", "title": "Benefits",  "verified_until": "2026-12-01T00:00:00Z"}
+    ]
+  }
+}

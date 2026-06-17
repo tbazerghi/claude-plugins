@@ -1,0 +1,26 @@
+{
+  "skill_name": "wiki-audit-dashboard-sync",
+  "evals": [
+    {
+      "id": 0,
+      "name": "standard-daily-audit",
+      "prompt": "It's the start of the day for the quarterly review. Run the daily wiki audit and sync the dashboard. The current Notion state is in the attached standard_run.json (treat it as the live source of truth). Give me the per-wiki summary and the updated dashboard numbers.",
+      "expected_output": "Company -> 4/4 = 100% (was 95%), Marketing -> 2/5 = 40% (was 40%), Sales -> 3/3 = 100% (was 88%). Summary table with before/after and a headline noting Company and Sales hit 100%, Marketing flat. Unverified pages for Marketing named (Campaign plan, Press kit, SEO playbook).",
+      "files": ["fixtures/standard_run.json"]
+    },
+    {
+      "id": 1,
+      "name": "unreadable-wiki-no-clobber",
+      "prompt": "Refresh the wiki dashboard from the attached unreadable_wiki.json. Update every row you can and tell me where things stand.",
+      "expected_output": "Company -> 3/3 = 100%. Product row is SKIPPED and reported as inaccessible; its existing 25/22/88 values are NOT overwritten with zeros. Headline flags Product as unreadable/skipped.",
+      "files": ["fixtures/unreadable_wiki.json"]
+    },
+    {
+      "id": 2,
+      "name": "edge-cases-counting",
+      "prompt": "Run the audit on the attached edge_cases.json and update the dashboard. Walk me through how each wiki came out.",
+      "expected_output": "Design -> 0 pages, flagged empty, 0%. Eng -> 5 live pages (archived 'Archived spec' excluded), 2 verified (Style guide, Deploy runbook); 'On-call' expires exactly at now so counts as expired; -> 40% (was 50%).",
+      "files": ["fixtures/edge_cases.json"]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "name": "mystuff",
   "version": "0.1.0",
-  "description": "A personal toolkit of general-purpose skills and agents for Cowork and Claude Code. Skills: action-items, draft-message, drafting-linkedin-posts, extracting-article-insights, morning-triage, skill-creator, summarize, tool-vendor-eval. Agents: researcher, reviewer.",
+  "description": "A personal toolkit of general-purpose skills and agents for Cowork and Claude Code. Skills: action-items, draft-message, drafting-linkedin-posts, email-triage-approve, extracting-article-insights, fire-department-lead-generation, morning-triage, notion-triage-summary, skill-creator, summarize, tool-vendor-eval, wiki-audit-dashboard-sync. Agents: daily-task-aggregator, fire-department-enricher, researcher, reviewer.",
   "author": {
     "name": "Thomas Bazerghi",
     "email": "tbazerghi@gmail.com"
@@ -12,11 +12,17 @@
     "action-items",
     "draft-message",
     "drafting-linkedin-posts",
+    "email-triage-approve",
     "extracting-article-insights",
+    "fire-department-lead-generation",
     "morning-triage",
+    "notion-triage-summary",
     "skill-creator",
     "summarize",
     "tool-vendor-eval",
+    "wiki-audit-dashboard-sync",
+    "daily-task-aggregator",
+    "fire-department-enricher",
     "researcher",
     "reviewer"
   ]

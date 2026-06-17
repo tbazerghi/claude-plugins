@@ -1,0 +1,19 @@
+{
+  "as_of": "2026-06-03T12:00:00Z",
+  "note": "Simulated Notion export exercising counting edge cases: an empty wiki (0 pages), archived pages that must be excluded, and a page whose verification expires exactly at 'as_of' (an expiry equal to now counts as expired, not verified).",
+  "dashboard": [
+    {"row": "Design",   "wiki_key": "design",   "team_lead": "Sam",  "total_pages": 0,  "verified_pages": 0,  "percent_verified": 0},
+    {"row": "Eng",      "wiki_key": "eng",      "team_lead": "Wei",  "total_pages": 5,  "verified_pages": 2,  "percent_verified": 40}
+  ],
+  "wikis": {
+    "design": [],
+    "eng": [
+      {"id": "e1", "title": "Style guide",   "verified_until": "2026-12-01T00:00:00Z"},
+      {"id": "e2", "title": "Deploy runbook", "verified_until": "2026-12-01T00:00:00Z"},
+      {"id": "e3", "title": "Archived spec",  "verified_until": "2026-12-01T00:00:00Z", "archived": true},
+      {"id": "e4", "title": "On-call",       "verified_until": "2026-06-03T12:00:00Z"},
+      {"id": "e5", "title": "Incident log",  "verified_until": "2025-06-01T00:00:00Z"},
+      {"id": "e6", "title": "Architecture",  "verified_until": null}
+    ]
+  }
+}
