@@ -12,13 +12,26 @@
     {
       "name": "mystuff",
       "source": "./mystuff",
-      "description": "A personal toolkit of general-purpose skills and agents: summarize, draft-message, action-items, drafting-linkedin-posts, extracting-article-insights, morning-triage, tool-vendor-eval, and skill-creator, plus researcher and reviewer agents.",
+      "description": "A personal toolkit of general-purpose skills and agents for Cowork and Claude Code. Skills: action-items, draft-message, drafting-linkedin-posts, extracting-article-insights, morning-triage, skill-creator, summarize, tool-vendor-eval. Agents: researcher, reviewer.",
       "version": "0.1.0",
       "author": {
         "name": "Thomas Bazerghi",
         "email": "tbazerghi@gmail.com"
       },
-      "keywords": ["productivity", "summarize", "drafting", "linkedin", "insights", "triage", "vendor-eval", "skill-creator", "research", "review", "general-purpose"],
+      "keywords": [
+        "productivity",
+        "general-purpose",
+        "action-items",
+        "draft-message",
+        "drafting-linkedin-posts",
+        "extracting-article-insights",
+        "morning-triage",
+        "skill-creator",
+        "summarize",
+        "tool-vendor-eval",
+        "researcher",
+        "reviewer"
+      ],
       "category": "productivity"
     }
   ]
